@@ -7,6 +7,7 @@ import {
 } from '@/functions/calculateArea'
 import { UserInfo } from '@/components/UserInfo'
 import { TodoApp } from '@/components/TodoApp'
+import { RenderMedia } from '@/components/RenderMedia'
 
 const Home: NextPage = () => {
   const circle: Circle = { kind: 'circle', radius: 5 }
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
       <UserInfo version={'v1'} />
       <UserInfo version={'v2'} />
       <TodoApp />
+      <RenderMedia type="video" url="url" caption="caption sample" />
     </main>
   )
 }
