@@ -6,7 +6,7 @@ export const GET = () => {
     version: 'v1',
     data: {
       name: '山田',
-      email: 'yamada.hanako@example.com',
+      email: 'yamada@example.com',
     },
   }
 
